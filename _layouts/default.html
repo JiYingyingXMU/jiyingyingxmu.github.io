@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Yingying Ji is studying</title>
+		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -15,10 +15,9 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Yingying Ji!</h1>
-				<p>I'm <em> studying </em> now. Don't trust me.;) <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
+			
+		{{ content }}
+			
 		</div><!-- /.container -->
 		<footer>
     		<ul>
